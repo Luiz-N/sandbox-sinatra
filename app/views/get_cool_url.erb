@@ -1,0 +1,14 @@
+
+
+<ul>
+  <%@items.each do |key,value| %>
+    <li><%= value %></li>
+  <%end%>
+</ul>
+
+<form action="/cool_url" method="post">
+  <input type="text" name="post[title]">
+  <input type="text" name="post[price]">
+  <input type = "submit" value="click me">
+</form>
+
